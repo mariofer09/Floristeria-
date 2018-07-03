@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+
+        <title>Formulario de contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilosindex.css" rel="stylesheet" type="text/css"/>
+        <link href="imagenes/estilosform.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <div id="cabecera"> Jardines el Rosal  
+            <br> Vivero de flores exoticas 
+        </div>
+
+        <div id="menu"> 
+            <ul> 
+                <li><a href="index.html">inicio</a></li>
+                <li>Quienes somos</li>
+                <li>tienda</li>
+                <li>productos</li>
+                <li>contactos</li>
+            </ul>
+
+        </div>
+        <h1>Formulario de pedidos</h1>
+        <form>
+
+            <div>
+                <label for="nombre">Nombre</label> 
+                <input type="text" id="nombre" name="nombre"/>
+            </div>
+            <div>
+                <label for="apellido">Apellidos</label> 
+                <input type="text" id="apellido" name="apellidos"/>
+            </div>
+            <div>
+                <label for="telefono">Telefono</label> 
+                <input type="text" id="telefono" name="telefono"/>
+            </div>
+            <div>
+                <label for="correo">Correo</label> 
+                <input type="email" id="correo" name="correo"/>
+            </div>
+            <div>
+                <label for="formapago">Formas de pago</label>
+                <input type="radio" id="formapago" name="formapago" value="tarjeta"/>Tarjeta 
+                <input type="radio" id="formapago" name="formapago" value="efectivo"/>Efectivo
+            </div>
+            <div> 
+                <label for="detalles">Detalles del pedido</label>
+                <textarea id="detalles" name="detalles" cols="100" rose="10"> </textarea>
+
+                <div> 
+                    <button type="submit">Enviar pedido</button>
+
+                </div>
+        </form>
+
+        <div id="pie">
+            <p> 
+                Calle 1ra #25 Jardines del cerro. santiago de los caballeros Republica Dominicana.<br>
+                Tel. 829-581-1234 y 809-583-1234
+            </p>
+
+            <img src="foto2.png"  width=50px heigh=50px alt=""/>
+            <img src="foto3.png" width=50px heigh=50px alt=""/>
+            <img src="foto4.png" width=50px heigh=50px alt=""/>
+
+
+        </div>
+
+    </body>
+</html>
